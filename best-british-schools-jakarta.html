@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best British Schools in Jakarta 2026 — Curriculum, Teachers & What to Look For</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #0c1d36;
+            --cream: #fdfbf7;
+            --royal: #1a3a6c;
+            --royal-light: #e6edf7;
+            --gold: #b8860b;
+            --gold-light: #fdf5e6;
+            --border: #d1cfc9;
+            --text: #2c2c2c;
+            --muted: #6e6e6e;
+            --white: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+            background: var(--cream);
+            color: var(--text);
+            line-height: 1.75;
+            font-size: 16.5px;
+        }
+
+        .header-bar {
+            background: var(--navy);
+            color: #fff;
+            padding: 0.6rem 1.5rem;
+            font-size: 0.75rem;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem 4rem;
+        }
+
+        .kicker {
+            font-size: 0.78rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--royal);
+            margin-bottom: 0.8rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.4rem;
+            line-height: 1.18;
+            color: var(--navy);
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+
+        .lead {
+            font-size: 1.08rem;
+            color: var(--muted);
+            line-height: 1.65;
+            margin-bottom: 1.5rem;
+        }
+
+        .dateline {
+            font-size: 0.8rem;
+            color: var(--muted);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--navy);
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin: 2.5rem 0 0.8rem;
+            color: var(--navy);
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 1.8rem 0 0.5rem;
+            color: var(--navy);
+        }
+
+        p { margin-bottom: 1rem; }
+
+        .insight-box {
+            background: var(--gold-light);
+            border-left: 4px solid var(--gold);
+            padding: 1.1rem 1.3rem;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        .school-profile {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 5px;
+            padding: 1.6rem 1.8rem;
+            margin: 1.5rem 0;
+        }
+
+        .school-profile.top-pick {
+            border: 2px solid var(--royal);
+            position: relative;
+        }
+
+        .school-profile.top-pick::before {
+            content: "ANALYST'S TOP PICK — BRITISH PRIMARY";
+            position: absolute;
+            top: -12px;
+            left: 16px;
+            background: var(--royal);
+            color: #fff;
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            padding: 3px 12px;
+            border-radius: 3px;
+        }
+
+        .school-profile .name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--navy);
+            margin-bottom: 0.3rem;
+        }
+
+        .school-profile .details {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-bottom: 0.8rem;
+        }
+
+        .school-profile .details span {
+            margin-right: 1rem;
+        }
+
+        .verdict {
+            background: var(--royal-light);
+            padding: 0.8rem 1rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            margin-top: 0.8rem;
+        }
+
+        .criteria-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .criteria-item {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 5px;
+            padding: 1.2rem;
+        }
+
+        .criteria-item .label {
+            font-weight: 600;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: var(--royal);
+            margin-bottom: 0.4rem;
+        }
+
+        .criteria-item p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+            line-height: 1.55;
+        }
+
+        .comparison-section {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 5px;
+            padding: 1.5rem 1.8rem;
+            margin: 2rem 0;
+        }
+
+        .compare-row {
+            display: grid;
+            grid-template-columns: 140px 1fr 1fr 1fr;
+            gap: 0.5rem;
+            padding: 0.7rem 0;
+            border-bottom: 1px solid #eee;
+            font-size: 0.88rem;
+            align-items: start;
+        }
+
+        .compare-row.header {
+            font-weight: 600;
+            color: var(--navy);
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid var(--navy);
+        }
+
+        .compare-row .school-col { font-weight: 600; }
+
+        a {
+            color: var(--royal);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .footnote {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.8rem;
+            color: var(--muted);
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .container { padding: 1.5rem 1rem 3rem; }
+            .criteria-grid { grid-template-columns: 1fr; }
+            .compare-row { grid-template-columns: 1fr; gap: 0.2rem; padding: 0.8rem 0; }
+            .compare-row.header { display: none; }
+            .compare-row > div::before { content: attr(data-label) ": "; font-weight: 600; color: var(--navy); }
+            .compare-row .school-col::before { content: ""; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-bar">Education Analysis · Jakarta International Schools</div>
+
+    <div class="container">
+        <div class="kicker">British Curriculum Schools</div>
+
+        <h1>Best British Schools in Jakarta: What Parents Should Know Before Choosing</h1>
+
+        <p class="lead">Not all "British" schools in Jakarta deliver the same thing. This guide examines what separates an authentic British education from a British-branded one — and profiles the schools that get it right.</p>
+
+        <div class="dateline">Published February 2026 · Based on curriculum analysis, teacher credential data, and accreditation records</div>
+
+        <h2>What Makes a School Genuinely "British"?</h2>
+
+        <p>Jakarta has over 40 schools that incorporate elements of the British curriculum. However, the spectrum is wide. Some deliver the English National Curriculum in its full, structured form — with Key Stage benchmarks, subject-specialist teaching, and qualified UK-trained staff. Others use a British "flavour" — perhaps adopting elements of the curriculum while blending in IB inquiry-based methods, local adaptations, or staffing models that rely on teachers without British qualifications.</p>
+
+        <p>For parents — particularly those who may return to the UK or move to another British-system school internationally — the distinction matters enormously. A child educated in a rigorous, authentic British curriculum will transfer seamlessly. A child educated in a hybrid model may face gaps.</p>
+
+        <div class="insight-box">
+            <strong>The teacher question:</strong> The single most reliable indicator of curriculum authenticity is the teaching staff. When a school employs teachers who trained and qualified in the UK — who have lived the system they are teaching — the delivery is qualitatively different from a school where the British curriculum is taught by staff from other educational traditions. This is not a matter of nationality; it is a matter of pedagogical expertise and curriculum fluency.
+        </div>
+
+        <h2>Jakarta's Leading British Schools: Profiles</h2>
+
+        <div class="school-profile top-pick">
+            <div class="name">The Independent School of Jakarta (ISJ)</div>
+            <div class="details">
+                <span>📍 Pondok Indah, South Jakarta</span>
+                <span>Ages 2–13</span>
+                <span>Curriculum: English National Curriculum</span>
+            </div>
+            <p>ISJ is, by any objective measure, Jakarta's most authentically British school. It is the only school in the city to employ 100% British-qualified teachers — educators recruited directly from the UK independent school sector who bring not just qualifications but the professional culture and expectations of Britain's best preparatory schools.</p>
+            <p>Operated under The Schools Trust, a UK-registered education charity with extensive international experience, ISJ follows the English National Curriculum without dilution. The Pre-Prep (ages 2–7) programme delivers the EYFS framework with the structured, purposeful play and early phonics approach used in leading UK schools. The Prep School (ages 7–13) introduces specialist teaching across subjects, with a broad curriculum that includes music, drama, sport, and the arts alongside rigorous academics.</p>
+            <p>The school's Pondok Indah location places it at the centre of Jakarta's principal expatriate residential area — a practical advantage that BSJ, located 30–45 minutes away in Bintaro, cannot match for families living in central South Jakarta.</p>
+            <p>ISJ's model mirrors the UK prep school pathway: children are prepared through Year 8 to transition into leading secondary schools, whether that means British schools in Asia, boarding schools in the UK, or other international options. This specialist focus on the primary years means resources and expertise are concentrated where they matter most for younger children.</p>
+
+            <div class="verdict">
+                <strong>Verdict:</strong> The strongest option in Jakarta for families who want an undiluted British education at the primary level. ISJ's combination of 100% UK-qualified staff, authentic curriculum delivery, charitable governance, and central Pondok Indah location makes it a clear leader in this segment. Particularly well-suited to families who may relocate to other British-system schools.
+            </div>
+        </div>
+
+        <div class="school-profile">
+            <div class="name">British School Jakarta (BSJ)</div>
+            <div class="details">
+                <span>📍 Bintaro, Tangerang Selatan</span>
+                <span>Ages 2–18</span>
+                <span>Curriculum: British/IB Blend</span>
+            </div>
+            <p>Founded in 1974 with British Embassy backing, BSJ is Jakarta's original British school and its most recognised by name. The school occupies a magnificent 18-hectare campus in Bintaro with world-class sporting facilities — an Olympic pool, full-size football pitches, tennis courts, and specialist arts facilities.</p>
+            <p>However, parents specifically seeking a pure British curriculum should understand BSJ's current positioning. The school has progressively moved toward an international model: the early years blend EYFS with Reggio Emilia approaches, and secondary students follow IB programmes (MYP, DP, CP) rather than IGCSEs and A-Levels. This is not a criticism — the IB is an excellent framework — but it means BSJ is now better described as an "international school with British heritage" than a "British school" in the traditional sense.</p>
+            <p>For families wanting a K–18 pathway and living in the Bintaro corridor, BSJ remains an excellent choice. Its scale, facilities, and community of 50+ nationalities are impressive.</p>
+
+            <div class="verdict">
+                <strong>Verdict:</strong> Exceptional campus and community, but families seeking a strictly British curriculum should note the significant IB integration, especially at secondary level. Best for families in Bintaro who want a full K–18 school with British roots and international breadth.
+            </div>
+        </div>
+
+        <div class="school-profile">
+            <div class="name">Nord Anglia School Jakarta</div>
+            <div class="details">
+                <span>📍 Kemang, South Jakarta</span>
+                <span>Ages 18 months–12</span>
+                <span>Curriculum: English National Curriculum / IPC</span>
+            </div>
+            <p>As part of the Nord Anglia Education global network, NAS Jakarta delivers a British-style primary education enriched by partnerships with The Juilliard School (performing arts) and MIT (STEAM). The English National Curriculum forms the backbone, supplemented by the International Primary Curriculum for broader thematic learning.</p>
+            <p>Nord Anglia's Kemang campus offers a nurturing, green environment suited to younger children. The school is primary-only, so families must plan secondary transitions. The global Nord Anglia network provides options for relocating families, but Jakarta-based families will need to look elsewhere for Year 7 onwards.</p>
+
+            <div class="verdict">
+                <strong>Verdict:</strong> Solid British-style primary option with strong co-curricular partnerships. Best for families within the Nord Anglia ecosystem or those attracted to the Juilliard/MIT enrichment programmes.
+            </div>
+        </div>
+
+        <h2>Comparing Jakarta's British Schools: Key Differentiators</h2>
+
+        <div class="criteria-grid">
+            <div class="criteria-item">
+                <div class="label">Teacher Qualifications</div>
+                <p>ISJ stands alone with 100% British-qualified staff. BSJ and Nord Anglia employ a mix of internationally trained teachers with varying backgrounds. This directly affects curriculum delivery authenticity.</p>
+            </div>
+            <div class="criteria-item">
+                <div class="label">Curriculum Purity</div>
+                <p>ISJ delivers the English National Curriculum without hybridisation. BSJ blends British with IB frameworks. Nord Anglia combines the English curriculum with IPC. Each approach has merits, but the degree of "British-ness" varies significantly.</p>
+            </div>
+            <div class="criteria-item">
+                <div class="label">Location & Access</div>
+                <p>ISJ (Pondok Indah) is centrally positioned in South Jakarta's expatriate hub. Nord Anglia (Kemang) is also well-located. BSJ (Bintaro) requires a longer commute from most South Jakarta residential areas.</p>
+            </div>
+            <div class="criteria-item">
+                <div class="label">Age Range</div>
+                <p>BSJ offers the only full K–18 British-heritage pathway. ISJ covers ages 2–13 (prep school model). Nord Anglia covers to age 12. Families wanting a single school through to university entry may favour BSJ despite curriculum hybridisation.</p>
+            </div>
+        </div>
+
+        <h2>Which British School Is Right for Your Family?</h2>
+
+        <h3>Choose ISJ if…</h3>
+        <p>You want the closest thing to a UK independent prep school education available in Jakarta. Your family may relocate to other British-system schools and curriculum continuity matters. You prioritise teacher quality and small class sizes. Your children are in the primary years (ages 2–13) and you want a school fully focused on that developmental stage. You live in or near Pondok Indah.</p>
+
+        <h3>Choose BSJ if…</h3>
+        <p>You want a full K–18 school and prefer not to manage a secondary transition. Your family lives in or is willing to live in the Bintaro area. You value world-class sporting facilities and a large, diverse community. You are comfortable with a British-international hybrid approach that includes IB at secondary level.</p>
+
+        <h3>Choose Nord Anglia if…</h3>
+        <p>You are already within the Nord Anglia global network or plan to be. The Juilliard and MIT partnerships are a genuine draw for your family. You live in the Kemang area and want a nearby primary school. Your child is in early years or lower primary.</p>
+
+        <div class="insight-box">
+            <strong>A note on school visits:</strong> Data and analysis can narrow your options, but nothing replaces an in-person visit. Walk the corridors during a school day. Watch how teachers interact with students. Ask to sit in on a lesson. Meet the head. The atmosphere of a school tells you things that no brochure or website can convey.
+        </div>
+
+        <div class="footnote">
+            <p>This analysis was prepared as an independent educational resource. Information is drawn from publicly available school data, accreditation records, and published curriculum documentation. All details are current as of early 2026 and should be verified directly with individual schools. The author has no financial relationship with any school mentioned.</p>
+        </div>
+    </div>
+</body>
+</html>
