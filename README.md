@@ -1,2 +1,2 @@
 # international-school-jakarta-artifacts
-Comparative data and curated guides for Jakarta's top international and British schools. Specific focus on primary education and British School Jakarta standards for expat families and prospective students
+This repository offers curated data and guides on top-tier international schools in Jakarta, covering curricula such as the International Baccalaureate and the English National Curriculum, with a focus on institutions in South and Greater Jakarta. Detailed information on specific schools, including the British School Jakarta and the Independent School of Jakarta, is available through the International Schools Guide. For comprehensive information you might like to check out https://international-schools-guide.com/
